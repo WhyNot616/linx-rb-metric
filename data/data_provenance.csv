@@ -1,0 +1,11 @@
+file,class,source,as_of,notes
+linx_player_seasons_2018_2025.csv,historical,Pro Football Reference advanced rushing,2025 season end,Frozen factual record. LINX component inputs.
+linx_scores_2018_2025.csv,derived_historical,computed from linx_player_seasons,2025 season end,Script output from historical only.
+linx_loo_scores.csv,derived_historical,computed leave-one-out,2025 season end,Leakage check variant.
+linx_stabilized_scores.csv,derived_historical,computed 3yr decay + EB shrink,2025 season end,
+linx_team_line_quality.csv,derived_historical,computed from pfr_all_rbs,2025 season end,
+pfr_all_rbs_2018_2025.csv,historical,Pro Football Reference,2025 season end,All 915 backs; leave-one-out baseline.
+pfr_games_2018_2025.csv,historical,Pro Football Reference,2025 season end,Games played; injury/availability null test.
+pfr_fantasy_rb_2018_2025.csv,historical,Pro Football Reference,2025 season end,RB fantasy stats for the engine.
+ngs_ryoe_2018_2025.csv,historical,NFL Next Gen Stats RYOE,2025 season end,External benchmark for LINX.
+espn_run_block_win_rate.csv,historical,ESPN Run Block Win Rate,2025 season end,External O-line benchmark.
