@@ -9,3 +9,4 @@ pfr_games_2018_2025.csv,historical,Pro Football Reference,2025 season end,Games 
 pfr_fantasy_rb_2018_2025.csv,historical,Pro Football Reference,2025 season end,RB fantasy stats for the engine.
 ngs_ryoe_2018_2025.csv,historical,NFL Next Gen Stats RYOE,2025 season end,External benchmark for LINX.
 espn_run_block_win_rate.csv,historical,ESPN Run Block Win Rate,2025 season end,External O-line benchmark.
+linx_yoy_pairs.csv,derived_historical,computed from linx_scores,2025 season end,Year-over-year pairs used in the stability and blind-holdout tests.
